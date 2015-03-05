@@ -424,6 +424,7 @@ extern struct cpufreq_governor cpufreq_gov_conservative;
 extern struct cpufreq_governor cpufreq_gov_interactive;
 #define CPUFREQ_DEFAULT_GOVERNOR	(&cpufreq_gov_interactive)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_ASSWAX)
 extern struct cpufreq_governor cpufreq_gov_asswax;
@@ -464,6 +465,8 @@ extern struct cpufreq_governor cpufreq_gov_darkness;
 #elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_ALUCARD)
 extern struct cpufreq_governor cpufreq_gov_alucard;
 #define CPUFREQ_DEFAULT_GOVERNOR (&cpufreq_gov_alucard)
+=======
+>>>>>>> e8a0eff... Added Lionheart and Intellidemand Governors and enabled Conservative [more to come later on]
 #elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_INTELLIDEMAND)
 extern struct cpufreq_governor cpufreq_gov_intellidemand;
 #define CPUFREQ_DEFAULT_GOVERNOR        (&cpufreq_gov_intellidemand)
@@ -476,6 +479,7 @@ extern struct cpufreq_governor cpufreq_gov_umbrella_core;
 #elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_BLUACTIVE)
 extern struct cpufreq_governor cpufreq_gov_bluactive;
 #define CPUFREQ_DEFAULT_GOVERNOR	(&cpufreq_gov_bluactive)
+<<<<<<< HEAD
 #elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_INTELLIMM)
 extern struct cpufreq_governor cpufreq_gov_intellimm;
 #define CPUFREQ_DEFAULT_GOVERNOR        (&cpufreq_gov_intellimm)
@@ -483,6 +487,14 @@ extern struct cpufreq_governor cpufreq_gov_intellimm;
 extern struct cpufreq_governor cpufreq_gov_interactive_pro;
 #define CPUFREQ_DEFAULT_GOVERNOR	(&cpufreq_gov_interactive_pro)
 >>>>>>> d657e71... Added a bunch of CPU governors
+=======
+#elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_LIONHEART)
+extern struct cpufreq_governor cpufreq_gov_lionheart;
+#define CPUFREQ_DEFAULT_GOVERNOR (&cpufreq_gov_LIONHEART)
+#elif defined(CONFIG_CPU_FREQ_DEFAULT_GOV_INTERACTIVE_PRO)
+extern struct cpufreq_governor cpufreq_gov_interactive_pro;
+#define CPUFREQ_DEFAULT_GOVERNOR (&cpufreq_gov_INTERACTIVE_PRO)
+>>>>>>> e8a0eff... Added Lionheart and Intellidemand Governors and enabled Conservative [more to come later on]
 #endif
 
 
