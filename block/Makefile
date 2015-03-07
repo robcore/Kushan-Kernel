@@ -26,11 +26,15 @@ obj-$(CONFIG_IOSCHED_ZEN)       += zen-iosched.o
 obj-$(CONFIG_IOSCHED_VR)        += vr-iosched.o
 obj-$(CONFIG_IOSCHED_FIOPS)     += fiops-iosched.o
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 obj-$(CONFIG_IOSCHED_SIOPLUS)  += sioplus-iosched.o
 obj-$(CONFIG_IOSCHED_TRIPNDROID)	+= tripndroid-iosched.o
 >>>>>>> 230fd10... added tripNdroid I/O scheduler and removed leftover from previous cherry-pick
+=======
+obj-$(CONFIG_IOSCHED_SIOPLUS)  += sioplus-iosched.o
+>>>>>>> d808694... Added sioplus I/O Scheduler
 
 obj-$(CONFIG_BLOCK_COMPAT)	+= compat_ioctl.o
 obj-$(CONFIG_BLK_DEV_INTEGRITY)	+= blk-integrity.o
