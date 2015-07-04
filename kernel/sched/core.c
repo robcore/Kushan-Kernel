@@ -2175,7 +2175,7 @@ unsigned long this_cpu_loadx(int i)
 }
 #endif /* CONFIG_RUNTIME_COMPCACHE */
 
-* Variables and functions for calc_load */
+/* Variables and functions for calc_load */
 #ifdef CONFIG_INTELLI_PLUG
 unsigned long avg_nr_running(void)
 {
