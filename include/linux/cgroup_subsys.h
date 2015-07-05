@@ -72,24 +72,3 @@ SUBSYS(net_prio)
 #endif
 
 /* */
-<<<<<<< HEAD
-=======
-
-#if IS_SUBSYS_ENABLED(CONFIG_CGROUP_HUGETLB)
-SUBSYS(hugetlb)
-#endif
-
-/* */
-
-#ifdef CONFIG_CGROUP_BCACHE
-SUBSYS(bcache)
-#endif
-
-/* */
-
-#if IS_SUBSYS_ENABLED(CONFIG_CGROUP_BFQIO)
-SUBSYS(bfqio)
-#endif
-
-/* */
->>>>>>> d1b40bd... BFQ Scheduler
